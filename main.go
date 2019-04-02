@@ -42,8 +42,7 @@ type Instance struct {
 	ClientIP   string
 	Error      string
 }
-
-const version string = "1.0.0"
+const version string = "2.0.0"
 
 func main() {
 	showversion := flag.Bool("version", false, "display version")
